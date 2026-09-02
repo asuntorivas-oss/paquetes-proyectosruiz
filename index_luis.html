@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Propuesta de Servicios - Luis</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#1f2937;--muted:#6b7280;--line:#e5e7eb;--dark:#111827;--good:#16a34a}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text)}
+.wrap{max-width:1100px;margin:auto;padding:48px 20px 64px}.hero{text-align:center;margin-bottom:32px}
+h1{font-size:46px;margin:0 0 12px}.hero p{color:var(--muted);font-size:18px}
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:30px}
+.plan{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 8px 26px rgba(17,24,39,.06)}
+.featured{border:2px solid var(--dark)}.badge{display:inline-block;background:var(--dark);color:white;padding:7px 10px;border-radius:999px;font-size:12px;font-weight:700;margin-bottom:14px}
+.plan h2{margin:0;font-size:24px}.price{font-size:40px;font-weight:800;margin:18px 0 5px}.price small{font-size:14px;color:var(--muted)}
+.total,.desc{color:var(--muted);line-height:1.6}.summary{margin-top:18px;background:#f9fafb;padding:15px;border-radius:14px}
+.table-card{background:white;border:1px solid var(--line);border-radius:22px;overflow:hidden}.table-head{padding:24px}
+.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:760px}
+th,td{padding:16px 18px;border-top:1px solid var(--line);text-align:center}th:first-child,td:first-child{text-align:left;width:50%}
+thead th{background:#fafafa}.yes{color:var(--good);font-size:20px;font-weight:800}.no{color:#9ca3af;font-weight:700}
+.section{background:#f9fafb;font-weight:800}.note{margin-top:24px;background:white;border:1px solid var(--line);border-radius:18px;padding:20px;color:var(--muted);line-height:1.7}
+@media(max-width:760px){.plans{grid-template-columns:1fr}.wrap{padding-top:28px}h1{font-size:36px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="hero">
+<h1>Propuesta de Servicios</h1>
+<p>Dos esquemas de trabajo para gestión de marketing y acompañamiento comercial.</p>
+</section>
+<section class="plans">
+<article class="plan">
+<h2>Gestión de Marketing</h2>
+<div class="price">$5,800 <small>+ IVA / mes</small></div>
+<div class="total">Total mensual: <strong>$6,728</strong></div>
+<p class="desc">Enfocado en mantener activa, ordenada y optimizada la presencia digital y la captación de prospectos.</p>
+<div class="summary"><strong>Objetivo:</strong> mantener campañas, contenidos y generación de leads funcionando correctamente.</div>
+</article>
+<article class="plan featured">
+<span class="badge">ACOMPAÑAMIENTO ESTRATÉGICO</span>
+<h2>Marketing + Estrategia Comercial</h2>
+<div class="price">$9,500 <small>+ IVA / mes</small></div>
+<div class="total">Total mensual: <strong>$11,020</strong></div>
+<p class="desc">Incluye la gestión de marketing más análisis comercial, promociones y recomendaciones orientadas a mejorar resultados.</p>
+<div class="summary"><strong>Objetivo:</strong> utilizar los resultados de marketing y ventas para detectar oportunidades de crecimiento.</div>
+</article>
+</section>
+<section class="table-card">
+<div class="table-head"><h2>Comparativa de servicios</h2><p class="total">Alcance mensual de cada propuesta.</p></div>
+<div class="table-wrap"><table>
+<thead><tr><th>Servicio incluido</th><th>Gestión de Marketing</th><th>Marketing + Estrategia Comercial</th></tr></thead>
+<tbody>
+<tr><td>Planeación de contenido mensual</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+<tr><td>Diseño y preparación de posteos</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+<tr><td>Periodo de revisión y aprobación del 15 al 19</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+<tr><td>Publicación después del día 19 si no existen observaciones</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+<tr><td>Gestión de campañas publicitarias</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+<tr><td>Monitoreo de correcta recepción de leads</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+<tr><td>Optimización y actualización de campañas según desempeño</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+<tr class="section"><td>Análisis y crecimiento comercial</td><td></td><td></td></tr>
+<tr><td>Análisis de resultados comerciales</td><td class="no">—</td><td class="yes">✓</td></tr>
+<tr><td>Análisis de conversión de leads a ventas</td><td class="no">—</td><td class="yes">✓</td></tr>
+<tr><td>Análisis de CAC, ROAS y tasas de conversión</td><td class="no">—</td><td class="yes">✓</td></tr>
+<tr><td>Propuesta de promociones y ofertas comerciales</td><td class="no">—</td><td class="yes">✓</td></tr>
+<tr><td>Generación de nuevas propuestas publicitarias según resultados</td><td class="no">—</td><td class="yes">✓</td></tr>
+<tr><td>Propuestas para mejorar calidad o cantidad de leads</td><td class="no">—</td><td class="yes">✓</td></tr>
+<tr><td>Acompañamiento en estrategia de ventas</td><td class="no">—</td><td class="yes">✓</td></tr>
+<tr><td>Recomendaciones para mejorar el proceso comercial</td><td class="no">—</td><td class="yes">✓</td></tr>
+</tbody></table></div>
+</section>
+<section class="note"><strong>Consideraciones:</strong> La administración y configuración de CRM, atención directa de prospectos, cierre de ventas y trabajos extraordinarios fuera del alcance establecido no están incluidos y podrán cotizarse por separado.</section>
+</main>
+</body>
+</html>
